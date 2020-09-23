@@ -9,14 +9,16 @@
 <body>
     <div class="container">
         <div id="end" class="flex-center flex-column">
+            <p>You Scored</p>
             <h1 id="finalScore">0</h1>
             <form class="end-form-container">
                 <h2 id="end-text">Enter your name below to save your score!</h2>
                 <input type="text" name="name" id="username" placeholder="Enter your name">
-                <button class="btn" id="saveScoreBtn" type="submit" onclick="saveHighScore(event)" disabled>Save</button>
+               <!--<button class="btn"id="saveScoreBtn" type="submit" onclick="saveHighScore(event)">Save</button>-->
             </form>
+            <a href="../highScore/highscores.html" class=btn id="saveScoreBtn">Save</a>
             <a href="../questions/questions.html" class="btn">Play Again</a>
-            <a href="../HTML/quizIndex.html" class="btn">Home<i class="fas fa-home"></i></a>
+            <a href="../HTML/quizIndex.html" class="btn">Home<i class="fas fa-home"></i></a>    
         </div>
     </div>
     <script src="../end/end.js"></script>

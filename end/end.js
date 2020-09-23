@@ -5,7 +5,7 @@ const mostRecentScore = localStorage.getItem('mostRecentScore')
 
 const highScores = JSON.parse(localStorage.getItem('highScores')) || []
 
-const MAX_HIGH_SCORES = 10
+const MAX_HIGH_SCORES = 13
 
 finalScore.innerText = mostRecentScore
 
@@ -30,5 +30,5 @@ saveHighScore = e => {
     highScores.splice(10)
 
     localStorage.setItem('highScores', JSON.stringify(highScores))
-    window.location.assign('/')
+    window.location.assign()
 }

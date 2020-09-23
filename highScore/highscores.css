@@ -1,13 +1,60 @@
-body {
-    color: #fff;
+:root {
+    background-color: grey;
+    margin: 0;
+    padding: 0;
 }
 
-#highScoresList {
-    list-style: none;
-    margin-bottom: 4rem;
+#container {
+	width: 600px;
+	height: auto;
 }
 
-.high-score {
-    font-size: 2.8rem;
-    margin-bottom: 0.5rem;
+.row {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 40px;
+	border-bottom: 1px solid #AFAFAF;
+}
+
+.name {
+	position: relative;
+	display: inline-block;
+	width: 75%;
+	line-height: 45px;
+}
+
+.score {
+	position: relative;
+	display: inline-block;
+	width: 25%;
+}
+
+table {
+	border-collapse: collapse;
+	width: 70%;
+  }
+  th, td {
+    border: 1px solid white;
+    padding: 10px;
+	text-align: center;
+	font-size: 2rem;
+  }
+
+  .homeBtn2 {
+  display: flex;
+  align-self: flex-end;
+  margin-left: 45%;
+  margin-bottom: 2%;
+  margin-top: ;
+  border: 1px solid black;
+  font-size: 2.4rem;
+  padding: 0.5rem 0;
+  width: 10rem;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(28, 26, 26);
+  background: yellow;
+  border-radius: 2px;
+  position: relative;
 }

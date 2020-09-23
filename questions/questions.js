@@ -60,7 +60,7 @@ let questions = [
         answer: 2,
     },
     {
-        question: "I famouly wrote- I know why the cage bird sings",
+        question: "Who wrote-I know why the cage bird sings?",
         choice1: "Terry McMillan",
         choice2: "Angie Thomas",
         choice3: "Toni Morrison",
@@ -116,7 +116,6 @@ let questions = [
         answer: 1,
     },
 ]
-
 const SCORE_POINTS = 1
 const MAX_QUESTIONS = 13
 
