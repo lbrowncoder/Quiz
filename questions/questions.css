@@ -47,10 +47,14 @@ body {
 .hud-prefix {
   text-align: center;
   font-size: 2rem;
+  margin: 0;
+  padding: 0;
 }
 
 .hud-main-text {
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 #progressBar {
@@ -60,6 +64,8 @@ body {
   margin-top: 2rem;
   border-radius: 50px;
   overflow: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 #progressBarFull {

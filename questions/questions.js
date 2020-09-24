@@ -52,7 +52,7 @@ let questions = [
         answer: 3,
     },
     {
-        question: "Who was the first African American woman to win five Grammy Awards in one year?",
+        question: "Who was the first black woman to win five Grammy Awards in one year?",
         choice1: "Little Kim",
         choice2: "Lauryn Hill",
         choice3: "Nikki Ninaj",
@@ -84,7 +84,7 @@ let questions = [
         answer: 2,
     },
     {
-        question: "What is James St. Patrick's nickname on the show Power? ",
+        question: "What is James St. Patrick's nickname on the show Power?",
         choice1: "Blue",
         choice2: "Tommy",
         choice3: "Ghost",
@@ -92,7 +92,7 @@ let questions = [
         answer: 3,
     },
     {
-        question: "What year did Britain first pass an act officially outlawing the institution of slavery?",
+        question: "What year did Britain first pass an act officially outlawing slavery?",
         choice1: "1772",
         choice2: "1883",
         choice3: "1938",

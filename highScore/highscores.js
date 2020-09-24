@@ -12,7 +12,7 @@ highScores.splice(5);{
 
 localStorage.setItem()*/
 
-const highScoresList = document.getElementById("highScoresList");
+/*const highScoresList = document.getElementById("highScoresList");
 let highScores =JSON.parse(localStorage.getItem("highScores")) || []
 
 
@@ -37,7 +37,14 @@ const MaxHighScore = 13;
 let score = {
     score: Math.floor(Math.random()* 100);
     name: username.value
-};
+};*/
+
+highscore = 0
+currentRoundScore = 0
+
+if (currentRoundScore > localStorage.getItem("highscore")) { 
+    localStorage.setItem("highscore", currentRoundScoree);
+    }
 
 highScores.push(score);
 
